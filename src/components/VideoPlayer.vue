@@ -9,7 +9,7 @@ let animation = ref("");
 
  onMounted(() => {
    // fetch API
-   let api_url = "http://localhost:5173/tiktok.json";
+   let api_url = "https://lab6-vue-delta.vercel.app/tiktok.json";
     fetch(api_url)
       .then((response) => response.json())
       .then((data) => {
